@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-B2KQZ1504Y');
+    </script>
+<script src="https://gatewayhumiliated.com/bb/0f/55/bb0f557039a1cff795c38f41500cd4af.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trending Videos</title>
+
+    <meta name="description"
+        content="Watch trending HD videos online with premium responsive design and smooth user experience.">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+            background:#0d1015;
+            color:#fff;
+            padding:0 20px 40px;
+        }
+
+        .page-header{
+            max-width:1200px;
+            margin:auto;
+            padding:30px 0 20px;
+            border-bottom:1px solid #272a35;
+            margin-bottom:30px;
+        }
+
+        .page-header h1{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:10px;
+            font-size:26px;
+            font-weight:700;
+        }
+
+        .page-header span{
+            color:#ff4757;
+        }
+
+        .container{
+            max-width:1200px;
+            margin:auto;
+        }
+
+        .video-grid{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+        }
+
+        .card{
+            background:#1a1c24;
+            border-radius:14px;
+            overflow:hidden;
+            display:flex;
+            flex-direction:column;
+            transition:.3s ease;
+            animation:fadeUp .5s ease;
+        }
+
+        .card:hover{
+            transform:translateY(-6px);
+            box-shadow:0 12px 24px rgba(0,0,0,.45);
+        }
+
+        .thumbnail-container{
+            position:relative;
+            width:100%;
+            padding-top:56.25%;
+            overflow:hidden;
+            display:block;
+            background:#000;
+        }
+
+        .thumbnail-container img{
+            position:absolute;
+            inset:0;
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            opacity:.9;
+            transition:transform .4s ease, opacity .3s ease;
+        }
+
+        .card:hover .thumbnail-container img{
+            transform:scale(1.05);
+            opacity:1;
+        }
+
+        .play-btn{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            width:60px;
+            height:60px;
+            border-radius:50%;
+            background:rgba(255,255,255,.2);
+            backdrop-filter:blur(8px);
+            border:1px solid rgba(255,255,255,.4);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            transition:.3s ease;
+        }
+
+        .card:hover .play-btn{
+            background:#ff4757;
+            border-color:#ff4757;
+            transform:translate(-50%,-50%) scale(1.1);
+            box-shadow:0 0 15px rgba(255,71,87,.6);
+        }
+
+        .play-btn svg{
+            width:24px;
+            height:24px;
+            fill:#fff;
+            margin-left:4px;
+        }
+
+        .card-content{
+            padding:16px;
+            display:flex;
+            flex-direction:column;
+            flex-grow:1;
+        }
+
+        .video-title{
+            font-size:16px;
+            font-weight:600;
+            margin-bottom:12px;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+        }
+
+        .video-meta{
+            display:flex;
+            gap:15px;
+            flex-wrap:wrap;
+            font-size:12px;
+            color:#8c8f98;
+            margin-bottom:16px;
+        }
+
+        .meta-item{
+            display:flex;
+            align-items:center;
+            gap:5px;
+        }
+
+        .meta-item svg{
+            width:14px;
+            height:14px;
+            fill:currentColor;
+        }
+
+        .download-btn{
+            margin-top:auto;
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+            gap:10px;
+            text-decoration:none;
+            color:#fff;
+            background:linear-gradient(135deg,#ff4757,#ff6b81);
+            padding:11px 20px;
+            border-radius:30px;
+            font-size:14px;
+            font-weight:700;
+            transition:.3s ease;
+            box-shadow:0 4px 15px rgba(255,71,87,.35);
+        }
+
+        .download-btn:hover{
+            transform:scale(1.03);
+            box-shadow:0 8px 20px rgba(255,71,87,.5);
+        }
+
+        .download-btn svg{
+            width:16px;
+            height:16px;
+            fill:#fff;
+        }
+
+        .file-size{
+            background:rgba(0,0,0,.2);
+            padding:2px 6px;
+            border-radius:10px;
+            font-size:12px;
+            color:#ffe0e3;
+        }
+
+        @keyframes fadeUp{
+            from{
+                opacity:0;
+                transform:translateY(20px);
+            }
+
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+
+        @media(max-width:900px){
+
+            .video-grid{
+                grid-template-columns:repeat(2,1fr);
+            }
+
+        }
+
+        @media(max-width:600px){
+
+            body{
+                padding:0 12px 30px;
+            }
+
+            .video-grid{
+                grid-template-columns:1fr;
+            }
+
+            .page-header h1{
+                font-size:22px;
+            }
+
+            .card-content{
+                padding:14px;
+            }
+
+        }
+
+    </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G9YE10BB87"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G9YE10BB87');
+</script>
+</head>
+
+<body>
+
+    <div class="page-header">
+        <h1><span>🔥</span> Exclusive Trending Videos</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="video-grid" id="videoGrid"></div>
+
+    </div>
+
+    <script>
+
+        const redirectLink =
+            "https://gatewayhumiliated.com/jfjd9dhuvw?key=f8b0c93e46e9b1394a4d4114512e8f63";
+
+        const videos = [
+
+            {
+                title:"Premium HD Video Collection",
+                image:"images/1.jpg",
+                views:"53K views",
+                time:"2 hours ago",
+                size:"45 MB"
+            },
+
+            {
+                title:"Trending Entertainment Clip",
+                image:"images/2.jpg",
+                views:"80K views",
+                time:"5 hours ago",
+                size:"62 MB"
+            },
+
+            {
+                title:"Exclusive Viral Scene",
+                image:"images/3.jpg",
+                views:"412K views",
+                time:"1 day ago",
+                size:"38 MB"
+            },
+
+            {
+                title:"Top Rated HD Stream",
+                image:"images/4.jpg",
+                views:"1M views",
+                time:"2 days ago",
+                size:"88 MB"
+            },
+
+            {
+                title:"Trending Premium Clip",
+                image:"images/5.jpg",
+                views:"25K views",
+                time:"3 days ago",
+                size:"24 MB"
+            },
+
+            {
+                title:"Latest Viral Upload",
+                image:"images/6.jpg",
+                views:"92K views",
+                time:"4 days ago",
+                size:"56 MB"
+            },
+
+            {
+                title:"Most Watched Video",
+                image:"images/7.jpg",
+                views:"750K views",
+                time:"1 week ago",
+                size:"102 MB"
+            },
+
+            {
+                title:"Editor's Choice HD",
+                image:"images/8.jpg",
+                views:"1.2M views",
+                time:"2 weeks ago",
+                size:"48 MB"
+            },
+
+            {
+                title:"Featured Trending Clip",
+                image:"images/9.jpg",
+                views:"500K views",
+                time:"3 weeks ago",
+                size:"33 MB"
+            }
+
+        ];
+
+        const videoGrid = document.getElementById("videoGrid");
+
+        videos.forEach(video => {
+
+            videoGrid.innerHTML += `
+
+                <div class="card">
+
+                    <a href="${redirectLink}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="thumbnail-container">
+
+                        <img src="${video.image}"
+                             alt="${video.title}"
+                             loading="lazy"
+                             onerror="this.src='images/default.jpg'">
+
+                        <div class="play-btn">
+
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 6v12l10-6z"/>
+                            </svg>
+
+                        </div>
+
+                    </a>
+
+                    <div class="card-content">
+
+                        <div class="video-title">
+                            ${video.title}
+                        </div>
+
+                        <div class="video-meta">
+
+                            <div class="meta-item">
+
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5z"/>
+                                </svg>
+
+                                ${video.views}
+
+                            </div>
+
+                            <div class="meta-item">
+
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                                </svg>
+
+                                ${video.time}
+
+                            </div>
+
+                        </div>
+
+                        <a href="${redirectLink}"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="download-btn">
+
+                            <svg viewBox="0 0 24 24">
+                                <path d="M19 9h-4V3H9v6H5l7 7 7-7z"/>
+                            </svg>
+
+                            Download
+
+                            <span class="file-size">
+                                ${video.size}
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            `;
+
+        });
+
+    </script>
+
+</body>
+
+</html>
